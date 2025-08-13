@@ -43,16 +43,53 @@ const About = () => {
 
         <Card className="bg-gradient-to-r from-card to-secondary/50 border-primary/20">
           <CardContent className="p-8">
-            <div className="grid md:grid-cols-2 gap-8 items-center">
+            <h3 className="text-2xl font-bold mb-6">Professional Experience</h3>
+            
+            <div className="mb-6">
+              <div className="flex items-center justify-between mb-3">
+                <h4 className="text-xl font-semibold">Junior Java Developer</h4>
+                <Badge className="bg-primary/20 text-primary border-primary/30">
+                  💼 Cognity S.A.
+                </Badge>
+              </div>
+              
+              <p className="text-muted-foreground mb-4">
+                Currently working on a greenfield telecommunications project, participating in all stages of the development lifecycle — from analysis and design to implementation, integration testing, and deployment.
+              </p>
+              
+              <div className="space-y-2 text-sm text-muted-foreground">
+                <div className="flex items-start gap-2">
+                  <span className="text-primary mt-1">•</span>
+                  <span>Designing and developing RESTful services using Java Spring Boot</span>
+                </div>
+                <div className="flex items-start gap-2">
+                  <span className="text-primary mt-1">•</span>
+                  <span>Working with microservices architecture and related patterns</span>
+                </div>
+                <div className="flex items-start gap-2">
+                  <span className="text-primary mt-1">•</span>
+                  <span>Implementing Backend for Frontend (BFF) solutions for web and mobile applications</span>
+                </div>
+                <div className="flex items-start gap-2">
+                  <span className="text-primary mt-1">•</span>
+                  <span>Storing and retrieving data in MongoDB, applying techniques like document atomicity</span>
+                </div>
+                <div className="flex items-start gap-2">
+                  <span className="text-primary mt-1">•</span>
+                  <span>Integrating with multiple backend and external systems, both legacy and modern, using various communication protocols</span>
+                </div>
+                <div className="flex items-start gap-2">
+                  <span className="text-primary mt-1">•</span>
+                  <span>Gaining in-depth understanding of telecom operations, including product modeling, order management, service provisioning, billing, KYC processes, and e-commerce flows</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8 items-center pt-4 border-t border-border">
               <div>
-                <h3 className="text-2xl font-bold mb-4">Professional Experience</h3>
-                <p className="text-muted-foreground mb-4">
-                  Junior Java Developer at Cognity, working on enterprise e-commerce solutions for Yettel Bulgaria. 
+                <p className="text-sm text-muted-foreground">
                   AUEB Graduate in Information Technology with focus on backend development and system architecture.
                 </p>
-                <Badge className="bg-primary/20 text-primary border-primary/30">
-                  💼 Cognity • Athens, Greece
-                </Badge>
               </div>
               <div className="text-center md:text-right">
                 <div className="text-4xl font-bold text-primary mb-2">1+</div>
