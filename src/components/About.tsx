@@ -4,10 +4,10 @@ import { Code, Database, Cpu, Globe } from "lucide-react";
 
 const About = () => {
   const skills = [
-    { icon: Code, name: "Programming", technologies: ["Java", "C++", "JavaScript", "Python"] },
-    { icon: Globe, name: "Web Development", technologies: ["HTML", "CSS", "React", "Node.js"] },
-    { icon: Database, name: "Algorithms", technologies: ["A-star", "Data Structures", "Optimization"] },
-    { icon: Cpu, name: "Systems", technologies: ["Distributed Systems", "Software Architecture"] }
+    { icon: Code, name: "Backend Development", technologies: ["Java", "Spring Boot", "REST APIs", "Microservices"] },
+    { icon: Database, name: "Database Systems", technologies: ["SQL", "Database Design", "Data Modeling", "Optimization"] },
+    { icon: Cpu, name: "Enterprise Systems", technologies: ["E-commerce", "System Architecture", "Performance Tuning"] },
+    { icon: Globe, name: "Integration", technologies: ["Third-party APIs", "Payment Systems", "Cloud Services"] }
   ];
 
   return (
@@ -18,8 +18,8 @@ const About = () => {
             About Me
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            I'm Faidon Azariadis, an undergraduate IT student at Athens University of Economics and Business (AUEB). 
-            Passionate about software development, algorithms, and creating innovative digital solutions.
+            I'm Faidon Azariadis, a Backend Developer and AUEB graduate currently working as a Junior Java Developer at Cognity. 
+            I specialize in building robust e-commerce systems and backend solutions using Spring Boot and modern Java technologies.
           </p>
         </div>
 
@@ -45,20 +45,20 @@ const About = () => {
           <CardContent className="p-8">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
-                <h3 className="text-2xl font-bold mb-4">Currently Studying</h3>
+                <h3 className="text-2xl font-bold mb-4">Professional Experience</h3>
                 <p className="text-muted-foreground mb-4">
-                  Information Technology at Athens University of Economics and Business (AUEB), 
-                  focusing on software engineering, algorithms, and distributed systems.
+                  Junior Java Developer at Cognity, working on enterprise e-commerce solutions for Yettel Bulgaria. 
+                  AUEB Graduate in Information Technology with focus on backend development and system architecture.
                 </p>
                 <Badge className="bg-primary/20 text-primary border-primary/30">
-                  📍 Athens, Greece
+                  💼 Cognity • Athens, Greece
                 </Badge>
               </div>
               <div className="text-center md:text-right">
-                <div className="text-4xl font-bold text-primary mb-2">6+</div>
-                <p className="text-muted-foreground">Projects Completed</p>
-                <div className="text-4xl font-bold text-primary mb-2 mt-4">4+</div>
-                <p className="text-muted-foreground">Technologies Mastered</p>
+                <div className="text-4xl font-bold text-primary mb-2">1+</div>
+                <p className="text-muted-foreground">Years Experience</p>
+                <div className="text-4xl font-bold text-primary mb-2 mt-4">6+</div>
+                <p className="text-muted-foreground">Academic Projects</p>
               </div>
             </div>
           </CardContent>

@@ -18,26 +18,26 @@ const Hero = () => {
         </div>
         
         <Badge className="mb-6 bg-primary/20 text-primary border-primary/30 hover:bg-primary/30">
-          ✨ Available for new projects
+          💼 Backend Developer at Cognity
         </Badge>
         
         <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent">
-          Building Innovative
+          Backend Developer
           <br />
-          Digital Solutions
+          & Java Specialist
         </h1>
         
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-          IT Student at AUEB specializing in software development, algorithms, and modern web technologies. 
-          Passionate about creating efficient and elegant solutions.
+          AUEB Graduate working as Junior Java Developer at Cognity. 
+          Specialized in Spring Boot and backend system development for enterprise e-commerce solutions.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 glow-effect">
-            Explore My Work ↓
+            View My Experience ↓
           </Button>
           <Button variant="outline" size="lg" className="border-primary/30 hover:bg-primary/10">
-            👋 Let's Connect
+            📄 Digital CV
           </Button>
         </div>
       </div>

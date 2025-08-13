@@ -8,16 +8,16 @@ const Contact = () => {
     <section className="py-20 bg-secondary/20">
       <div className="container mx-auto px-6 text-center">
         <Badge className="mb-6 bg-primary/20 text-primary border-primary/30">
-          Let's Connect
+          Professional Profile
         </Badge>
         
         <h2 className="text-4xl md:text-5xl font-bold mb-6">
-          Ready to Collaborate?
+          Get in Touch
         </h2>
         
         <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
-          I'm always interested in discussing new opportunities, innovative projects, 
-          or simply connecting with fellow developers and tech enthusiasts.
+          Explore my professional background, technical skills, and project portfolio. 
+          Feel free to reach out for professional inquiries or to learn more about my work.
         </p>
 
         <div className="grid md:grid-cols-3 gap-6 mb-12">
@@ -63,13 +63,13 @@ const Contact = () => {
 
         <Card className="bg-gradient-to-r from-primary/10 to-accent/10 border-primary/20 max-w-2xl mx-auto">
           <CardContent className="p-8">
-            <h3 className="text-2xl font-bold mb-4">Let's Build Something Amazing</h3>
+            <h3 className="text-2xl font-bold mb-4">Professional Background</h3>
             <p className="text-muted-foreground mb-6">
-              Whether you have a project in mind, want to collaborate, or just want to chat about technology, 
-              I'd love to hear from you.
+              Currently working as a Junior Java Developer at Cognity, developing enterprise e-commerce solutions. 
+              This portfolio showcases my technical skills, academic projects, and professional experience.
             </p>
             <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 glow-effect">
-              Start a Conversation
+              Download CV
             </Button>
           </CardContent>
         </Card>
