@@ -28,8 +28,8 @@ const Hero = () => {
         </h1>
         
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-          AUEB Graduate working as Junior Java Developer at Cognity. 
-          Specialized in Spring Boot and backend system development for enterprise e-commerce solutions.
+          Senior undergraduate student at AUEB working as Software Developer at Cognity. 
+          Specialized in Java, Spring Framework, and backend development for enterprise solutions.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
