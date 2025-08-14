@@ -58,7 +58,7 @@ const Projects = () => {
             Featured Projects
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            See how I transform concepts into functional digital solutions across various technologies and domains.
+            Academic projects showcasing my technical skills across various programming languages and domains.
           </p>
         </div>
         
